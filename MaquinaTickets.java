@@ -90,7 +90,7 @@ public class MaquinaTickets
     public void imprimirAviso()
     {
         //Imprime por pantalla aviso de introducir cantidad correcta de dinero
-        System.out.println("Please, insert the correct amount of money");
+        System.out.println("Por favor, introduce la cantidad correcta");
     }
     public void mostrarPrecio()
     {
