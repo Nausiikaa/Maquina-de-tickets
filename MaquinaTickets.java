@@ -92,7 +92,12 @@ public class MaquinaTickets
         //Imprime por pantalla aviso de introducir cantidad correcta de dinero
         System.out.println("Please, insert the correct amount of money");
     }
+    public void mostrarPrecio()
+    {
+        //imprime el valor del ticket
+        System.out.println("El precio del ticket es" + precio + "euros");
     
+    }
     
     
 }
