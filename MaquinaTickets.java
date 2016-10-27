@@ -83,8 +83,15 @@ public class MaquinaTickets
     
     
     }
-    
-    
+    public void setPrecio(int coste)
+    {
+        precio = coste;
+    }
+    public void imprimirAviso()
+    {
+        //Imprime por pantalla aviso de introducir cantidad correcta de dinero
+        System.out.println("Please, insert the correct amount of money");
+    }
     
     
     

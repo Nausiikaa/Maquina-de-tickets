@@ -24,7 +24,7 @@ public class EstacionDeTren
         totalDinero = totalDinero + maquina2.getTotal();
         System.out.println(totalDinero);
     }
-  public void simulateSellTickets()
+  public void simularVentaTickets()
     {
         maquina1.insertDinero(300);
         maquina2.insertDinero(200);
