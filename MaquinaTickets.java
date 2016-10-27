@@ -103,6 +103,9 @@ public class MaquinaTickets
         System.out.println("El precio del ticket es" + precio + "euros");
     
     }
-    
+    public void vaciarMaquina()
+    {
+        total = 0;
+    }
     
 }
